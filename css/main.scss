@@ -69,10 +69,24 @@ html {
   line-height: 2.5rem;
   color: rgba(0, 0, 0, 0.5); }
 
-.nav-link:hover,
 .nav-link:focus,
 .active .nav-link {
   color: rgba(0, 0, 0, 0.8); }
+
+  .nav-link:hover{
+    & .fa-twitter{
+      color: #55acee;
+    }
+    & .fa-facebook{
+      color:#3b5999;
+    }
+    & .fa-instagram{
+      color:#e4405f;
+    }
+    & .fa-github{
+      color: #000;
+    }
+  }
 
 .nav-item + .nav-item {
   margin-left: 1rem; }
